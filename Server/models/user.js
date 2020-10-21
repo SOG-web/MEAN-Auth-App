@@ -41,3 +41,10 @@ bcrypt.genSalt(10, (err, salt) => {
     })
 })
 }
+
+module.exports.comparePassword = function(candidatePassword, hashPassword, callback) {
+    bcrypt.compare(candidatePassword, hashPassword, (err, isMatch) => {
+        if(err) throw err;
+        callback(null, isMatch); 
+    })
+}
