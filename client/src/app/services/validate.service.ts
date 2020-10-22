@@ -9,8 +9,8 @@ export class ValidateService {
 
   // tslint:disable-next-line:typedef
   validateRegister(user) {
-    // tslint:disable-next-line:triple-equals
-    if (user.name == undefined || user.username == undefined || user.email == undefined || user.password){
+    if (user.name === undefined || user.username === undefined || user.email === undefined || user.password === undefined){
+     // console.log(user);
       return false;
     } else  {
       return  true;

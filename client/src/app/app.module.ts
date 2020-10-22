@@ -11,6 +11,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import {FormsModule} from '@angular/forms';
 import {ValidateService} from './services/validate.service';
+import {FlashMessagesModule} from 'angular2-flash-messages';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {ValidateService} from './services/validate.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    FlashMessagesModule.forRoot()
   ],
   providers: [ValidateService],
   bootstrap: [AppComponent]
