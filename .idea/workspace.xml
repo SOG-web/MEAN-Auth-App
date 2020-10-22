@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e45db7c-0a14-464b-a896-ea1f6a71f3aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/register/register.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/services/validate.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/services/validate.service.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jDUEXnWs7UrlXe292Sb1DD182m" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/client/node_modules/typescript/lib" />
+    <property name="tslint.code.style.apply.dismiss" value="true" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e45db7c-0a14-464b-a896-ea1f6a71f3aa" name="Default Changelist" comment="" />
+      <created>1603338077134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603338077134</updated>
+      <workItem from="1603338083108" duration="11568000" />
+    </task>
+    <task id="LOCAL-00001" summary="register page done">
+      <created>1603348715404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603348715405</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="register page done" />
+    <option name="LAST_COMMIT_MESSAGE" value="register page done" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="189" y="308" width="297" height="178" key="#TSLint" timestamp="1603349074761">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="189" y="308" width="297" height="178" key="#TSLint/0.27.1366.741@0.27.1366.741" timestamp="1603349074761" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1603340335471">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.27.1366.741@0.27.1366.741" timestamp="1603340335471" />
+    <state x="213" y="294" width="350" height="298" key="org.angular.cli.generate" timestamp="1603341299811">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="213" y="294" width="350" height="298" key="org.angular.cli.generate/0.27.1366.741@0.27.1366.741" timestamp="1603341299811" />
+  </component>
+</project>
