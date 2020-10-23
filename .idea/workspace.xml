@@ -16,17 +16,30 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e45db7c-0a14-464b-a896-ea1f6a71f3aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/services/auth.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/services/auth.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/config/passport.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/config/passport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/profile/profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/profile/profile.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/profile/profile.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/profile/profile.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/components/register/register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/register/register.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/register/register.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +63,6 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Angular-Component-Communication" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -80,6 +92,9 @@
       <workItem from="1603338083108" duration="17696000" />
       <workItem from="1603385275649" duration="981000" />
       <workItem from="1603386429102" duration="1277000" />
+      <workItem from="1603388190311" duration="6908000" />
+      <workItem from="1603429973027" duration="12627000" />
+      <workItem from="1603466920358" duration="5299000" />
     </task>
     <task id="LOCAL-00001" summary="register page done">
       <created>1603348715404</created>
@@ -102,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603357589060</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="more">
+      <created>1603388358107</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603388358107</updated>
+    </task>
+    <task id="LOCAL-00005" summary="more">
+      <created>1603388645528</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603388645528</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +142,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -124,7 +165,8 @@
     <MESSAGE value="register page done" />
     <MESSAGE value="validation service created" />
     <MESSAGE value="flash messages added" />
-    <option name="LAST_COMMIT_MESSAGE" value="flash messages added" />
+    <MESSAGE value="more" />
+    <option name="LAST_COMMIT_MESSAGE" value="more" />
   </component>
   <component name="WindowStateProjectService">
     <state x="189" y="308" width="297" height="178" key="#TSLint" timestamp="1603349074761">
@@ -135,10 +177,14 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603387593646" />
-    <state x="194" y="27" key="SettingsEditor" timestamp="1603387541596">
+    <state x="194" y="27" key="SettingsEditor" timestamp="1603431761978">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="194" y="27" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1603387541596" />
+    <state x="194" y="27" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1603431761978" />
+    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603388656968">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603388656968" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1603340335471">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
