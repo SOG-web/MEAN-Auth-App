@@ -3,9 +3,13 @@
   <p class="lead">
     Welcome to our custom MEAN Authentication application built from scratch
   </p>
-  <div>
+  <div *ngIf="!authGuard.displayFunc()">
     <a class="btn btn-primary mr-4" [routerLink]="['/register']">Register</a>
     <a class="btn btn-dark mr-4" [routerLink]="['/login']">Login</a>
+  </div>
+  <div *ngIf="authGuard.displayFunc()">
+    <a class="btn btn-primary mr-4" [routerLink]="['/dashboard']">Dashboard</a>
+    <a class="btn btn-dark mr-4" [routerLink]="['/profile']">Profile</a>
   </div>
 </div>
 

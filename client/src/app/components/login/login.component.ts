@@ -30,11 +30,11 @@ export class LoginComponent implements OnInit {
         this.auth.storeUserData(data.token, data.user);
         this.flash.show('you are now logged in', {
           cssClass: 'alert-success',
-          timeout: 5000,
+          timeout: 2000,
         });
         this.router.navigate(['profile']);
       } else {
-        this.flash.show(data.msg, { cssClass: 'alert-danger', timeout: 5000 });
+        this.flash.show(data.msg, { cssClass: 'alert-danger', timeout: 3000 });
       }
     });
   }

@@ -26,20 +26,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e45db7c-0a14-464b-a896-ea1f6a71f3aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/app/services/auth.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/services/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/services/auth-guard.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/services/auth-guard.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/services/avy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/services/route-gaurd.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/services/route-gaurd.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/config/passport.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/config/passport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/home/home.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/components/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/login/login.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/navbar/navbar.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/profile/profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/profile/profile.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/profile/profile.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/profile/profile.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/register/register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/register/register.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/register/register.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +56,15 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1jDUEXnWs7UrlXe292Sb1DD182m" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -94,7 +98,9 @@
       <workItem from="1603386429102" duration="1277000" />
       <workItem from="1603388190311" duration="6908000" />
       <workItem from="1603429973027" duration="12627000" />
-      <workItem from="1603466920358" duration="5299000" />
+      <workItem from="1603466920358" duration="5913000" />
+      <workItem from="1603478225395" duration="6168000" />
+      <workItem from="1603512760939" duration="117000" />
     </task>
     <task id="LOCAL-00001" summary="register page done">
       <created>1603348715404</created>
@@ -131,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603388645528</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="profile page done and token added">
+      <created>1603474572421</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603474572421</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,17 +175,27 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="register page done" />
     <MESSAGE value="validation service created" />
     <MESSAGE value="flash messages added" />
     <MESSAGE value="more" />
-    <option name="LAST_COMMIT_MESSAGE" value="more" />
+    <MESSAGE value="profile page done and token added" />
+    <option name="LAST_COMMIT_MESSAGE" value="profile page done and token added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="189" y="308" width="297" height="178" key="#TSLint" timestamp="1603349074761">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="189" y="308" width="297" height="178" key="#TSLint/0.27.1366.741@0.27.1366.741" timestamp="1603349074761" />
+    <state x="401" y="198" width="553" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603483392554">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="401" y="198" width="553" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1603483392554" />
+    <state x="77" y="146" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603482965325">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="77" y="146" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.741@0.27.1366.741" timestamp="1603482965325" />
     <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1603387593646">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -193,5 +216,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="213" y="294" width="350" height="298" key="org.angular.cli.generate/0.27.1366.741@0.27.1366.741" timestamp="1603341299811" />
+    <state x="347" y="175" key="run.anything.popup" timestamp="1603480076075">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="175" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1603480076075" />
   </component>
 </project>

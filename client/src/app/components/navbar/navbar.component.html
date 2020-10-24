@@ -25,6 +25,23 @@
 
     <ul class="navbar-nav mr-right navbar-right">
       <li
+        *ngIf="this.authGuard.displayFunc()"
+        class="nav-item"
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <a class="nav-link" [routerLink]="['/dashboard']">Dashboard</a>
+      </li>
+      <li
+        *ngIf="this.authGuard.displayFunc()"
+        class="nav-item"
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <a class="nav-link" [routerLink]="['/profile']">Profile</a>
+      </li>
+      <li
+        *ngIf="!this.authGuard.displayFunc()"
         class="nav-item"
         [routerLinkActive]="['active']"
         [routerLinkActiveOptions]="{ exact: true }"
@@ -32,13 +49,14 @@
         <a class="nav-link" [routerLink]="['/login']">Login</a>
       </li>
       <li
+        *ngIf="!this.authGuard.displayFunc()"
         class="nav-item"
         [routerLinkActive]="['active']"
         [routerLinkActiveOptions]="{ exact: true }"
       >
         <a class="nav-link" [routerLink]="['/register']">Register</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item" *ngIf="this.authGuard.displayFunc()">
         <a class="nav-link" (click)="onLogoutClick()" href="#">Logout</a>
       </li>
     </ul>
