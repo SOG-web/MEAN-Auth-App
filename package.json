@@ -1,7 +1,7 @@
 {
   "name": "server-mean-auth-app",
   "version": "1.0.0",
-  "description": "a",
+  "description": "good",
   "main": "app.js",
   "scripts": {
     "start": "node app",
