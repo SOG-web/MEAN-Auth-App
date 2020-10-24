@@ -12,9 +12,8 @@ const routes: Routes = [
   {
     path: 'register',
     component: RegisterComponent,
-    canDeactivate: [RouteGuard],
   },
-  { path: 'login', component: LoginComponent, canDeactivate: [RouteGuard] },
+  { path: 'login', component: LoginComponent },
   {
     path: 'dashboard',
     component: DashboardComponent,
