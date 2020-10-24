@@ -1,4 +1,4 @@
 module.exports = {
-    mongodb: 'mongodb://127.0.0.1:27017/meanauthapp',
+    mongodb: 'mongodb+srv://meanauthapp:mUNXXkbOA6fGM7Wp@cluster0.eekox.gcp.mongodb.net/meanauthapp?retryWrites=true&w=majority',
     secret: 'your secret'
 }
