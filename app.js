@@ -29,7 +29,7 @@ const port = process.env.PORT || 4200;
 app.use(cors());
 
 // Set static folder
-app.use(express.static(path.join(__dirname, "../public")));
+app.use(express.static(path.join(__dirname, "./public")));
 
 // Body Parser middleware
 app.use(bodyParser.json());
@@ -42,7 +42,7 @@ passportAuth(passport);
 app.use("/users", users);
 
 app.get("/", (req, res) => {
-  res.send("Invalid Endpoint");
+  res.sendFile(path.join(__dirname, "./public/index.html"));
 });
 
 app.get("*", (req, res) => {
