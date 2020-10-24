@@ -26,7 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e45db7c-0a14-464b-a896-ea1f6a71f3aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/register/register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/register/register.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +90,7 @@
       <workItem from="1603466920358" duration="5913000" />
       <workItem from="1603478225395" duration="6168000" />
       <workItem from="1603512760939" duration="4244000" />
+      <workItem from="1603525563415" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="register page done">
       <created>1603348715404</created>
