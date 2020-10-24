@@ -14,26 +14,22 @@ export class AuthService {
   // tslint:disable-next-line:typedef
   registerUser(user): any {
     const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-    return this.http
-      .post('http://localhost:6200/users/register', user, { headers })
-      .pipe(
-        map((res) => {
-          //  console.log(res);
-          return res;
-        })
-      );
+    return this.http.post('users/register', user, { headers }).pipe(
+      map((res) => {
+        //  console.log(res);
+        return res;
+      })
+    );
   }
 
   loginUser(user): any {
     const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-    return this.http
-      .post('http://localhost:6200/users/authenticate', user, { headers })
-      .pipe(
-        map((res) => {
-          // console.log(res);
-          return res;
-        })
-      );
+    return this.http.post('users/authenticate', user, { headers }).pipe(
+      map((res) => {
+        // console.log(res);
+        return res;
+      })
+    );
   }
 
   getProfile(): any {
@@ -43,7 +39,7 @@ export class AuthService {
     };
     // console.log(this.authToken);
     // console.log(options);
-    return this.http.get('http://localhost:6200/users/profile', options).pipe(
+    return this.http.get('users/profile', options).pipe(
       map((res) => {
         //  console.log(res);
         return res;

@@ -27,8 +27,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4e45db7c-0a14-464b-a896-ea1f6a71f3aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/services/route-gaurd.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/services/route-gaurd.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/dashboard/dashboard.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/services/auth.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +59,8 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.10.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="8.10.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Angular-Component-Communication" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -89,7 +93,7 @@
       <workItem from="1603429973027" duration="12627000" />
       <workItem from="1603466920358" duration="5913000" />
       <workItem from="1603478225395" duration="6168000" />
-      <workItem from="1603512760939" duration="881000" />
+      <workItem from="1603512760939" duration="3355000" />
     </task>
     <task id="LOCAL-00001" summary="register page done">
       <created>1603348715404</created>
@@ -140,7 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603512996449</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="route guard, auth guard, all component except dashboard all done and working">
+      <created>1603513666647</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603513666647</updated>
+    </task>
+    <task id="LOCAL-00009" summary="route guard, auth guard, all component except dashboard all done and working">
+      <created>1603513693626</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603513693626</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
