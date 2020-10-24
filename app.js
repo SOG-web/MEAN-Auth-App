@@ -23,7 +23,7 @@ mongoose.connection.on("error", (err) => {
 
 const app = express();
 
-const port = process.env.PORT || 6200;
+const port = process.env.PORT || 4200;
 
 // Cors middleware
 app.use(cors());
