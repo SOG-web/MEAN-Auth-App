@@ -19,28 +19,14 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e45db7c-0a14-464b-a896-ea1f6a71f3aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/passport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/config/db.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/config/passport.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/models/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/routes/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +89,7 @@
       <workItem from="1603429973027" duration="12627000" />
       <workItem from="1603466920358" duration="5913000" />
       <workItem from="1603478225395" duration="6168000" />
-      <workItem from="1603512760939" duration="3874000" />
+      <workItem from="1603512760939" duration="4244000" />
     </task>
     <task id="LOCAL-00001" summary="register page done">
       <created>1603348715404</created>
@@ -175,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603516930968</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="client built and all set for production">
+      <created>1603517264926</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603517264926</updated>
+    </task>
+    <task id="LOCAL-00012" summary="client built and all set for production">
+      <created>1603517516325</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603517516325</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +192,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -237,10 +237,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="194" y="27" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1603431761978" />
-    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603516938962">
+    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603517267148">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603516938962" />
+    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603517267148" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1603340335471">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
