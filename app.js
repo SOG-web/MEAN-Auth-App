@@ -23,7 +23,7 @@ mongoose.connection.on("error", (err) => {
 
 const app = express();
 
-const port = process.env.PORT || 5200;
+const port = process.env.PORT || 6200;
 
 // Cors middleware
 app.use(cors());
@@ -42,7 +42,7 @@ passportAuth(passport);
 app.use("/users", users);
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../public/index.html"));
+  res.send("Invalid Endpoint");
 });
 
 app.get("*", (req, res) => {
